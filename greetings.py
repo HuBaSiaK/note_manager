@@ -1,6 +1,6 @@
 # Объявление переменных
 username = 'Байдаков Денис'
-title = 'Captains log. Stardate 57436.2'
+title = "Captain's log. Stardate 57436.2"
 content = 'First entry'
 status = 'Активна'
 created_date = "11-01-2025"
