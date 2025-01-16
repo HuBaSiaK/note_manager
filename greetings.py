@@ -4,11 +4,12 @@ title = "Captain's log. Stardate 57436.2"
 content = "First entry"
 status = "Активна"
 created_date = "11-01-2025"
-issue_date = "11-01-2025"
+issue_date = "15-06-2025"
 # Вывод переменных
-print("Имя пользователя:", username)
-print("Заголовок заметки:", title)
-print("Описание заметки:", content)
-print("Статус заметки:", status)
-print("Дата создания заметки:", created_date[0:5])
-print("Дата истечения заметки:", issue_date[0:5])
+print("Заметка:")
+print("Имя пользователя: ", username)
+print("Заголовок: ", title)
+print("Описание: ", content)
+print("Статус: ", status)
+print("Создана: ", created_date[0:5])
+print("Выполнить до: ", issue_date[0:5])
