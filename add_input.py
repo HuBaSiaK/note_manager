@@ -1,10 +1,10 @@
 username = input("Введите ваше имя: ")
 #title = input("Введите заголовок заметки ")
-first_title = input("Введите первый заголовок: ")
-second_title = input("Введите второй заголовок: ")
-third_title = input("Введите третий заголовок: ")
-titles_list = [first_title,second_title,third_title]
-#print(titles_list)
+titles_list = []
+titles_list.append(input("Введите первый заголовок: "))
+titles_list.append(input("Введите второй заголовок: "))
+titles_list.append(input("Введите третий заголовок: "))
+#titles_list = [first_title,second_title,third_title]
 content = input("Введите содержание заметки ")
 status = input("Введите текущий статус ")
 created_date = input("Введите дату создания в формате 'dd-mm-yyyy': ")
