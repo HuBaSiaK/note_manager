@@ -1,3 +1,19 @@
+def get_digits(number):
+    new_number = number
+    digit_list = []
+    #digit_number = 1
+    #while 10**digit_list <= new_number:
+    while 1 <= new_number:
+        digit_list.append(new_number % 10)
+        new_number = new_number // 10
+    digit_list.reverse()
+    return digit_list
+# number = int(input("Введите трёхзначное число: "))
+# hundreds = (number % 1000) // 100
+# print(f"В вашем числе {hundreds} сотен")
+# thousands = (number % 10000) // 1000
+# print(f"В вашем числе {thousands} тысяч")
+
 #Функция ввода даты пользователем
 def user_date_input():
     import datetime
